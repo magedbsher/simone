@@ -1,0 +1,938 @@
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: "Poppins", sans-serif;
+
+ }
+
+
+
+
+
+ .banner {
+     background-image: url(../images/intro-bg.jpg);
+     height: 100vh;
+     background-size: cover;
+
+ }
+
+ .navbar {
+z-index: 1;
+     background-color: rgba(0, 0, 0, 0.8);
+     display: flex;
+     justify-content: space-between;
+     position: fixed;
+     width: 100%;
+     padding: 20px 20px;
+
+ }
+
+ .navbar a {
+     color: white;
+ }
+
+ .navbar ul {
+
+     display: flex;
+     text-decoration: none;
+     list-style-type: none;
+     flex-direction: row;
+
+
+ }
+
+ .navbar ul li {
+     padding: 10px 20px;
+     font-size: 20px;
+
+ }
+
+ .navbar a {
+
+     text-decoration: none;
+
+
+ }
+
+ .navbar a img {
+     width: 20px;
+     height: 20px;
+ }
+
+ .content {
+     background-color: rgba(0, 0, 0, 0.8);
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     flex-direction: column;
+     padding: 40px 0;
+ }
+
+ .content h2 {
+     font-size: 40px;
+     margin-bottom: 40px;
+ }
+
+ .content h1 {
+     font-size: 80px;
+     margin-bottom: 40px;
+
+ }
+
+ .content h1::after {
+     content: "|";
+     animation-name: moving;
+     animation-duration: 5s;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+ }
+
+
+
+ @keyframes moving {
+     0% {
+         content: "De|";
+     }
+
+     3% {
+         content: "Des|";
+     }
+
+     6% {
+         content: "Desi|";
+     }
+
+     9% {
+         content: "Design|";
+     }
+
+     12% {
+         content: "Designe|";
+     }
+
+     15% {
+         content: "Designer|";
+     }
+
+     18% {
+         content: "Designe|";
+     }
+
+     21% {
+         content: "Design|";
+     }
+
+     24% {
+         content: "Desig|";
+     }
+
+     27% {
+         content: "Desi|";
+     }
+
+     30% {
+         content: "Des|";
+     }
+
+     33% {
+         content: "De|";
+     }
+
+     36% {
+         content: "D|";
+     }
+
+     39% {
+         content: "De|";
+     }
+
+     42% {
+         content: "Dev|";
+     }
+
+     45% {
+         content: "Deve|";
+     }
+
+     48% {
+         content: "Devel|";
+     }
+
+     51% {
+         content: "Develo|";
+     }
+
+     54% {
+         content: "Develop|";
+     }
+
+     57% {
+         content: "Develope|";
+     }
+
+     60% {
+         content: "Developer|";
+     }
+
+     63% {
+         content: "Develope|";
+     }
+
+     66% {
+         content: "Develop|";
+     }
+
+     69% {
+         content: "Develo|";
+     }
+
+     72% {
+         content: "Devel|";
+     }
+
+     75% {
+         content: "Devel|";
+     }
+
+     78% {
+         content: "Deve|";
+     }
+
+     81% {
+         content: "Dev|";
+     }
+
+     84% {
+         content: "Dev|";
+     }
+
+     87% {
+         content: "De|";
+     }
+
+     90% {
+         content: "D|";
+     }
+
+     92% {
+         content: "c|";
+     }
+
+     94% {
+         content: "co|";
+     }
+
+     96% {
+         content: "cod|";
+     }
+
+     98% {
+         content: "code|";
+     }
+
+     100% {
+         content: "coder|";
+     }
+
+
+ }
+
+ .content h3 {
+     font-size: 30px;
+     margin-bottom: 40px;
+
+ }
+
+ .content h4 {
+     font-size: 40px;
+ }
+
+ .content button {
+     background-color: transparent;
+     font-size: 20px;
+     padding: 20px 35px;
+     border-radius: 40px;
+     color: #20c997;
+     border-color: #20c997;
+
+
+ }
+
+ .content a:hover .content button {
+     background-color: #20c997;
+ }
+
+ .color-switch {
+     background-color: aqua;
+     width: 40px;
+     height: 40px;
+     background: #555;
+     position: fixed;
+     right: 0;
+     top: 200px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+ }
+
+ .color-switch img {
+     width: 50%;
+     height: 50%;
+
+ }
+
+ .section-one {
+     display: flex;
+
+     width: 100%;
+
+
+ }
+
+ .background-title {
+ 
+     display: flex;
+     justify-content: center;
+     font-size: 200px;
+     height: 300px;
+     align-items: center;
+     opacity: .1;
+     overflow: auto;
+
+
+ }
+
+ .title {
+     display: flex;
+     justify-content: center;
+     font-size: 50px;
+     position: relative;
+     bottom: 160px;
+
+     align-items: center;
+
+ }
+
+ .title::after {
+     content: "";
+     position: absolute;
+     width: 10%;
+     height: 3px;
+     background-color: #20c997;
+     top: 60px;
+ }
+
+ .section-one .left-side {
+     width: 50%;
+
+ }
+
+ .section-one .right-side {
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+     text-align: left;
+
+
+
+ }
+
+ .right-side h2 {
+     padding-left: 200px;
+     padding-bottom: 30px;
+     font-weight: 500;
+
+ }
+
+ .right-side h2 a {
+     color: #20c997;
+ }
+
+ .left-side {
+     padding-left: 70px;
+
+ }
+
+ .left-side h2 {
+     font-size: 40px;
+     margin-bottom: 20px;
+ }
+
+ .left-side h2 span {
+     color: #20c997;
+ }
+
+ .left-side p {
+     font-size: 20px;
+     padding-bottom: px;
+
+ }
+
+ .right-side button {
+     width: 40%;
+     font-size: 30px;
+     background-color: #20c997;
+     color: white;
+     margin-left: 200px;
+     border-radius: 30px;
+     height: 80px;
+
+ }
+
+ .numbers {
+     display: flex;
+     flex-direction: row;
+     padding-top: 100px;
+     justify-content: space-evenly;
+     color: #555;
+
+ }
+
+ .item {
+     width: 25%;
+     text-align: center;
+     margin-bottom: 100px;
+ }
+
+ .item h1 {
+     font-size: 60px;
+ }
+
+ .item h2 {
+     font-size: 20px;
+ }
+
+ .section-two {
+
+     display: flex;
+     justify-content: space-between;
+     margin-top: 50px;
+     width: 100%;
+ }
+
+
+
+
+ .element {
+     display: flex;
+     flex-direction: row;
+     margin-left: 50px;
+     width: 50%;
+
+
+
+ }
+
+ .box {
+     display: flex;
+     flex-direction: column;
+     margin-left: 50px;
+
+ }
+
+ .box h2 {
+     margin-bottom: 20px;
+ }
+
+ .box p {
+     font-size: 20px;
+     width: 70%;
+ }
+
+
+ .element img {
+     width: 50px;
+     height: 50px;
+
+ }
+
+ .section-three {
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+
+
+
+ }
+
+ .left-hand {
+     margin: 0 50px;
+
+ }
+
+
+
+ .left-hand span {
+     border: solid 2px #20c997;
+     color: white;
+     background-color: #20c997;
+     border-radius: 25px;
+     font-size: 20px;
+     padding: 5px 20px;
+     margin: 10px 0px;
+
+ }
+
+ .left-hand h1 {
+     margin-left: 50px;
+ }
+
+ .cell {
+     border: solid 1px rgb(225, 220, 220);
+     width: 100%;
+
+     margin-top: 50px;
+     height: 250px;
+     padding-top: 40px;
+     padding-left: 30px;
+     border-radius: 1%;
+ }
+
+ .cell h2 {
+     margin-top: 20px;
+     margin-bottom: 20px;
+     font-size: 30px;
+
+ }
+
+ .cell h3 {
+     margin-bottom: 20px;
+     color: #dc3545;
+     font-size: 20px;
+
+ }
+
+ .cell p {
+     font-size: 20px;
+ }
+
+ .section-four h2 {
+     margin-bottom: 20px;
+     margin-top: 100px;
+
+     font-size: 40px;
+ }
+
+ .section-four {
+     width: 90%;
+     margin: auto;
+
+
+ }
+
+ .skills {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+
+
+
+
+
+ }
+
+ .plan {
+     width: 50%;
+     margin-left: 50px;
+ }
+
+ .skills .plan .text {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     margin: 20px 10px;
+     font-size: 20px;
+     width: 90%;
+
+
+ }
+
+ .skills .plan .progress-bar1 {
+     height: 4px;
+     background-color: #e9ecef;
+     ;
+     overflow: hidden;
+     border-radius: 50px;
+     width: 90%;
+ }
+
+ .skills .plan .progress-bar2 {
+     height: 4px;
+     background-color: #e9ecef;
+     ;
+     overflow: hidden;
+     border-radius: 50px;
+     width: 90%;
+ }
+
+ .skills .plan .progress-bar3 {
+     height: 4px;
+     background-color: #e9ecef;
+     ;
+     overflow: hidden;
+     border-radius: 50px;
+     width: 90%;
+ }
+
+ .skills .plan .progress-bar4 {
+     height: 4px;
+     background-color: #e9ecef;
+     
+     overflow: hidden;
+     border-radius: 50px;
+     width: 90%;
+ }
+
+ .skills .plan .progress-bar5 {
+     height: 4px;
+     background-color: #e9ecef;
+     
+     overflow: hidden;
+     border-radius: 50px;
+     width: 90%;
+ }
+
+ .skills .plan .progress-bar6 {
+     height: 4px;
+     background-color: #e9ecef;
+     
+     overflow: hidden;
+     border-radius: 50px;
+     width: 90%;
+ }
+
+ .skills .plan .progress-bar1 .progress-inner {
+     height: 100%;
+     width: 65%;
+     background-color: #20c997;
+     ;
+
+ }
+
+ .skills .plan .progress-bar2 .progress-inner {
+     height: 100%;
+     width: 95%;
+     background-color: #20c997;
+     ;
+
+ }
+
+ .skills .plan .progress-bar3 .progress-inner {
+     height: 100%;
+     width: 80%;
+     background-color: #20c997;
+
+ }
+
+ .skills .plan .progress-bar4 .progress-inner {
+     height: 100%;
+     width: 70%;
+     background-color: #20c997;
+
+ }
+
+ .skills .plan .progress-bar5 .progress-inner {
+     height: 100%;
+     width: 60%;
+     background-color: #20c997;
+
+ }
+
+ .skills .plan .progress-bar6 .progress-inner {
+     height: 100%;
+     width: 99%;
+     background-color: #20c997;
+
+ }
+ .skills ul li{
+    list-style: none;
+ }
+
+
+
+
+
+
+ .btn {
+     text-align: center;
+     display: flex;
+     justify-content: center;
+
+
+ }
+
+ .btn button {
+     background-color: transparent;
+     width: 250px;
+     border-radius: 40px;
+     height: 50px;
+     border: 2px solid #555;
+     margin-top: 50px;
+     
+
+ }
+
+ .btn button a {
+     font-size: 30px;
+     color: #555;
+     text-decoration: none;
+ }
+
+ .categories {
+     display: flex;
+     justify-content: center;
+ }
+
+ .categories a {
+     padding: 0 40px;
+     text-decoration: none;
+     font-size: 20px;
+ }
+
+ .section-five {
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+     margin-top: 50px;
+     justify-content: center;
+     
+ }
+
+ .column-one {
+    
+     width: 25%;
+
+     margin-left: 50px;
+
+ }
+
+ .module {
+    
+     position: relative;
+     overflow: hidden;
+     margin-bottom: 20px;
+ }
+
+ .layer {
+     position: absolute;
+     top: 100%;
+     height: 100%;
+     width: 100%;
+     background-color: rgba(0, 0, 0, 0.5);
+     opacity: 0;
+     transition: all .5s;
+
+ }
+
+ .module:hover .layer {
+     top: 0;
+     opacity: 1;
+
+ }
+
+ .column-one img {
+     width: 100%;
+     border-radius: 10px;
+
+ }
+
+ .column-two {
+     width: 25%;
+     margin-left: 50px;
+
+ }
+
+ .column-two img {
+     transition: all 0.5s;
+     width: 100%;
+
+     border-radius: 10px;
+ }
+
+
+
+ .column-three {
+     width: 25%;
+     margin-left: 50px;
+
+ }
+
+
+
+ .column-three img {
+     width: 100%;
+
+     border-radius: 10px;
+ }
+
+ .header {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+
+ }
+
+ .header img {
+     border-radius: 50%;
+     margin-bottom: 50px;
+ }
+
+
+ .article {
+     margin-left: 20px;
+ }
+
+ .article h3 {
+     color: #555;
+     margin-top: 10px;
+ }
+
+ .client-one {
+
+     width: 40%;
+     background-color: rgb(245, 241, 241);
+     margin: 20px;
+     height: 50%;
+     padding: 50px;
+
+ }
+
+ .client-one p {
+     font-size: 20px;
+     font-weight: 700;
+     ;
+
+ }
+
+ .section-six {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     height: 600px;
+ }
+
+ .requirments {
+     margin-bottom: 50px;
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+
+ }
+
+ .last-section {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     background-color: #f8f9fa;
+ }
+
+ .address p {
+     font-size: 20px;
+     padding-bottom: 10px;
+     margin-bottom: 10px;
+ }
+
+ a .address {
+     width: 20%;
+ }
+
+ .address h2 {
+     margin-bottom: 20px;
+ }
+
+ .inputs {
+     width: 60%;
+     margin-left: 200px;
+
+
+ }
+ .inputs h2{
+    margin-bottom: 20px;
+ }
+
+ .name {
+     width: 50%;
+ }
+
+ .email {
+     width: 50%;
+ }
+
+
+ .name input {
+     height: 50px;
+     width: 90%;
+     font-size: 20px;
+     border-radius: 5px;
+     padding-left: 10px;
+ }
+
+ .email input {
+     margin-right: 20px;
+     height: 50px;
+     width: 90%;
+     font-size: 20px;
+     border-radius: 5px;
+     padding-left: 10px;
+ }
+
+ .textarea textarea {
+     width: 95%;
+     font-size: 20px;
+     border-radius: 5px;
+     padding-left: 10px;
+     padding-top: 10px;
+ }
+
+ .follow-me {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+
+ }
+
+ .follow-me a img {
+     width: 20px;
+     height: 20px;
+ }
+
+ .send-message {
+     display: flex;
+     justify-content: center;
+     margin-top: 20px;
+ }
+
+ .send-message button {
+     font-size: 20px;
+     height: 50px;
+     width: 200px;
+     border-radius: 50px;
+     background-color: #20c997;
+     color: white;
+     border-style: none;
+ }
+
+ .line p a {
+     color: #20c997;
+     text-decoration: none;
+
+ }
+
+ .line {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     width: 80%;
+     margin: auto;
+
+ }
+
+ .end {
+     display: flex;
+     align-items: center;
+     height: 250px;
+ }

@@ -1,0 +1,201 @@
+@media screen and (max-width: 600px) {
+  .background-title {
+    font-size: 10px;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+    font-size: 10px;
+  }
+
+  .navbar ul {
+    display: flex;
+    
+padding: 0;
+    text-align: center;
+    font-size: 10px;
+  }
+  .navbar ul li {
+    padding: 5px 10px;
+  }
+
+  .navbar ul li a {
+    margin: 5px;
+    font-size: 15px;
+  }
+
+  .content {
+    padding-top: 80px;
+    text-align: center;
+    font-size: 50px;
+  }
+  .content h1{
+
+    font-size: 40px;
+  }
+
+  .background-title {
+    font-size: 80px;
+  }
+
+.title{
+font-size: 30px;
+}
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-one .left-side {
+    width: 100%;
+   text-align: center;
+   margin-bottom: 50px;
+   padding-inline: 30px;;
+  }
+
+  .section-one .left-side p {
+    text-align: center;
+    font-size: 20px;
+  }
+  .section-one .left-side h2{
+    font-size: 30px;
+  }
+
+  .section-one .right-side {
+    width: 100%;
+    
+  }
+  .section-one .right-side h2{
+    font-size: 20px;
+    
+  }
+
+  .numbers {
+    display: flex;
+   flex-wrap: wrap;
+    width: 100%;
+  }
+  .item{
+    width: 50%;
+  }
+ 
+  .element {
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 0;
+  }
+  .element img{
+    text-align: center;
+  }
+  .section-two{
+    
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .section-two .element .box {
+  
+    width: 80%;
+    margin: auto;
+   
+
+    
+    
+  }
+
+
+ .section-two .element .box p {
+   
+    
+    margin: auto;
+  }
+
+  .section-three {
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .section-three .lef-hand{
+  background-color: yellow;
+    margin-bottom: 80px;
+   
+  }
+  .skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .plan{
+    width: 100%;
+  }
+  .plan li{
+    margin-bottom: 50px;
+  }
+  .section-four h2{
+    text-align: center;
+
+  }
+
+  .section-five {
+    display: flex;
+    flex-direction: column;
+  }
+  .column-one {
+    width: 80%;
+    margin: auto;
+  }
+
+  .column-two {
+    width: 80%;
+    margin: auto;
+  }
+
+  .column-three {
+    width: 80%;
+    margin: auto;
+  }
+  .section-six{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-six .client-one {
+    
+    margin-bottom: 50px;
+    width: 90%;
+  }
+  .last-section  {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-block: 50px;
+  }
+  
+  .follow-me{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+  }
+  .follow-me a{
+    margin: 50px 10px;
+  }
+  .last-section{
+    display: flex;
+    flex-direction: column;
+  }
+  .inputs{
+    margin: 100px;
+  }
+}
